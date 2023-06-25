@@ -1,0 +1,10 @@
+.politic{
+    color: var(--poliyc-color);
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+    &__linc{
+        color: var(--poliyc-color);
+        text-decoration: underline;
+    }
+}

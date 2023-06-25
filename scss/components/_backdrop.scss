@@ -1,0 +1,28 @@
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(1, 31, 74, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:  opacity 0.2s, visibility 0.2s;
+    padding: 30px;
+}
+.backdrop-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--text-color-light);
+    transition: transform 0.2s;
+    padding: 16px 20px;
+}
+.is-hidden{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}

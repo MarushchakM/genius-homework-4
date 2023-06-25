@@ -1,0 +1,66 @@
+.offer{
+    background-image: url('../image/offer-bg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url('../image/offer-bg@2.jpg');
+    }
+    @media screen and (min-width: $bp-desktop) {
+        background-position: top right;
+    }
+    &__wrap{
+        padding: 70px 0px 140px;
+        @media screen and (min-width: $bp-tablet) {
+            padding: 124px 106px;
+        }
+    }
+    &__text{
+        text-align: center;
+        font-size: 12px;
+        @media screen and (min-width: $bp-tablet) {
+            text-align: start;
+            font-size: 18px;
+        }
+    }
+    &__title{
+        margin-bottom: 32px;
+        font-family: 'Play';
+        font-size: 54px;
+        
+        color: var(--brend-color);
+        line-height: 46px;
+        text-align: center;
+        @media screen and (min-width: $bp-tablet) {
+            text-align: start;
+            max-width: 529px;
+            font-size: 140px;
+            line-height: 114px;
+            margin-bottom: 40px;
+        }
+    }
+    &__btn{
+        margin: 0 auto 8px;
+        display: block;
+        @media screen and (min-width: $bp-tablet){
+            margin-bottom: 14px;
+            margin: 0;
+        }
+    }
+    &__call{
+        max-width: 186px;
+        text-align: center;
+        font-size: 11px;
+        line-height: 18px;
+        color: var(--grey-color);
+        margin: 0 auto;
+        @media screen and (min-width: $bp-tablet){
+            max-width: 238px;
+            font-size: 12px;
+            margin: 0;
+            margin-top: 14px;
+        }
+    }
+}

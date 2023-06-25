@@ -1,0 +1,37 @@
+.modal{
+    position: relative;
+    overflow: auto;
+    width: 724px;
+    &__form{
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        @media screen and (min-width: $bp-tablet){
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+    }
+    &__close{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+
+    }
+    &__title{
+        color: var(--text-color-light);
+        text-align: center;
+        margin-bottom: 40px;
+        font-size: 44px;
+        line-height: 54px;
+    }
+    &__text{
+        text-align: center;
+    }
+    &__btn{
+        margin: 0 auto;
+        display: block;
+    }
+}

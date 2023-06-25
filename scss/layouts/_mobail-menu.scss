@@ -1,0 +1,28 @@
+.mobail-menu{
+    z-index: 20;
+    &__close{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: transparent;
+        border: none;
+    }
+    &__icon{
+        fill: var(--text-color-dark);
+    }
+    &__nav{
+        margin-bottom: 32px;
+    }
+    &__logo{
+        margin-bottom: 32px;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    &__socil-linc{
+        display: flex;
+        gap: 16px;
+    }
+}

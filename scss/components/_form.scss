@@ -1,0 +1,39 @@
+.form{
+    background-color: var(--text-color-dark);
+    background-image:  url('../image/footer_bg.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 48px 70px;
+    border-radius: 32px;
+    width: 100%;
+    @media screen and (min-width: $bp-mobile){
+        width: 423px;
+    }
+
+    &__title{
+        color: var(--text-color-light);
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 24px;
+    }
+    &__input{
+        width: 100%;
+        height: 52px;
+        margin-bottom: 16px;
+        padding: 16px 24px;
+        background: none;
+        border: 2px solid var(--poliyc-color);
+        border-radius: 50px;
+        color: var(--text-color-light);
+        &::placeholder{
+            color: var(--text-color-light);
+        }
+        @media screen and (min-width: $bp-mobile){
+            padding: 18px 32px;
+        }
+    }
+    &__btn{
+        padding: 16px 26px;
+    }
+}

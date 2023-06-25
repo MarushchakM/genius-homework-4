@@ -1,0 +1,20 @@
+.btn{
+    cursor: pointer;
+    padding: 16px 24px;
+    border-radius: 40px;
+    background-color: var(--brend-color);
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-color-light);
+    transition: all 0.2s;
+    border: 1px solid var(--brend-color);
+    &:hover{
+        border: 1px solid var(--brend-color);
+        background-color: var(--text-color-light);
+        color: var(--brend-color);
+    }
+    @media screen and (min-width: $bp-tablet){
+        padding: 16px 32px;
+        font-size: 18px;
+    }
+}

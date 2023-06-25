@@ -1,0 +1,9 @@
+.menu{
+    &__link{
+        transition: color 0.2s;
+        &:hover{
+            color: var(--brend-color);
+            font-weight: 700;
+        }
+    }
+}
